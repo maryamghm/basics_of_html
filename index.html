@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryam's Youtube</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            background-color: black;
+        }
+
+        #container {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            border: solid 2px whitesmoke;
+        }
+
+        .all_items {
+            background-color: #111;
+            padding: 25px;
+            border-radius: 10px;
+            width: 30%;
+            color: white;
+            text-align: center;
+        }
+
+        .all_items img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .all_items h2 {
+            font-size: 18px;
+            margin: 10px 0 5px;
+        }
+
+        .all_items p {
+            margin: 5px;
+        }
+
+        .all_items p:last-of-type {
+            color: gray;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="item_1" class="all_items">
+            <img src="./img/image1.webp" alt="Secrets You Should Know">
+            <h2>Secrets You Should Know</h2>
+            <p>John Smith</p>
+            <p>2M • 5 months ago</p>
+        </div>
+        <div id="item_2" class="all_items">
+            <img src="./img/image2.jpg" alt="Attractive Thumbnail">
+            <h2>Attractive Thumbnail</h2>
+            <p>John Peltonen</p>
+            <p>5M • 11 months ago</p>
+        </div>
+        <div id="item_3" class="all_items">
+            <img src="./img/image3.avif" alt="Shocked Face">
+            <h2>Shocked Face</h2>
+            <p>John Rijesh</p>
+            <p>5M • 6 months ago</p>
+        </div>
+    </div>
+</body>
+</html>
